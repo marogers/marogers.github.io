@@ -1,0 +1,81 @@
+.App {
+  /* text-align: center; */
+}
+
+table, tr, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+}
+
+table {
+  width: 100%;
+}
+
+td {
+  text-align: left;
+}
+
+td.grey {
+  background-color: grey;
+}
+
+.table-container {
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+}
+
+.control-panel {
+  background-color: lightgrey;
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+  font-size: 1.1em;
+}
+.control-panel input {
+  padding: 5px;
+}
+
+.control-header-identifier {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.input-container {
+  margin-bottom: 10px;
+}
+
+.control-button {
+  padding: 5px;
+}
+
+.under-table-container {
+  margin-top: 10px;
+  display: flex;
+}
+.configure-button-container {
+  flex: auto;
+}
+.configure-button {
+  padding: 5px;
+}
+
+.width-span-container {
+  flex: right;
+}
+.table-width-span {
+  font-size: 1.2em;
+}
+
+@media (max-width: 1000px) { 
+  #table-blue {
+    display: none;
+  }
+ }
+ 
+@media (max-width: 800px) { 
+  #table-green {
+    display: block;
+  }
+ }

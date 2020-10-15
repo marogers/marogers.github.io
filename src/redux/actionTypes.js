@@ -1,0 +1,4 @@
+export const SET_CONFIGURE_TABLE = "SET_CONFIGURE_TABLE";
+export const SET_RED_TABLE = "SET_RED_TABLE";
+export const SET_GREEN_TABLE = "SET_GREEN_TABLE";
+export const SET_BLUE_TABLE = "SET_BLUE_TABLE";
